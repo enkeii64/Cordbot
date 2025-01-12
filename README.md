@@ -9,6 +9,7 @@ Before setting up the bot, make sure you have the following:
 Python 3.11+ installed on your machine.
 A Discord account and a Discord bot token.
 A Google Gemini API key (or any API you want to use for processing user queries).
+Basic Python skills, extremely reccommended.
 
 # Step-by-Step Setup
 ## 1. Clone the Repository
@@ -48,20 +49,14 @@ source venv/bin/activate
 ```
 
 ## 3. Install Required Dependencies
-Install all required Python dependencies by running:
+Run this command to install all the required dependencies for the virtual environment:
 
 ```
-pip install -r requirements.txt
+pip install discord.py python-dotenv google-generativeai
 ```
 
 ## 4. Create a .env File
-Create a .env file in the root directory of your project to store sensitive environment variables like your Discord bot token and API key.
-
-### Example .env file:
-```
-DISCORD_TOKEN=your_discord_bot_token
-GEMINI_API_KEY=your_gemini_api_key
-```
+Use the existing .env file provided in this repo and add your Gemini API Key and Discord Bot Token - I assume you already set up a bot on Discord's Developer Portal, and you can add in the Bot Token.
 
 ## 5. Modify the System Prompt (Optional)
 ## To modify the system’s behavior, adjust the system_prompt in the code. This string controls how the bot generates responses to user queries.
