@@ -4,6 +4,8 @@ import json
 from dotenv import load_dotenv
 import google.generativeai as genai
 
+# BOT IS MADE BY ENKEI64, OPEN SOURCE ON GITHUB, BUT PLEASE ACKNOWLEDGE THIS IN THE CODE, YOU CAN MODIFY IT AS YOU WISH, PLEASE KEEP THIS IN THE CODE, DOESN'T NEED TO BE SHOWN PUBLICLY.
+
 load_dotenv()
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
@@ -21,7 +23,7 @@ DATA_FILE = "knowledge_data.json"
 data = {
     "general_knowledge": [],
     "response_knowledge": [],
-    "config_allowed_users": ["enkei2"]  # Default admin user - enter your Discord username if you are the owner (configurator) of the bot.
+    "config_allowed_users": ["enkei64"]  # Default admin user - enter your Discord username if you are the owner (configurator) of the bot.
 }
 
 gemini_usage = {"messages_sent": 0, "tokens_used": 0}
