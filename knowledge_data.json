@@ -1,0 +1,12 @@
+{
+    "general_knowledge": [
+         "add some knowledge here"
+    ],
+    "response_knowledge": [
+        "how the bot should respond"
+    ],
+    "config_allowed_users": [
+        "enkei2",
+        "the usernames of the people who can configure the bot"
+    ]
+}
