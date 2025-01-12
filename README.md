@@ -66,15 +66,6 @@ GEMINI_API_KEY=your_gemini_api_key
 ## 5. Modify the System Prompt (Optional)
 ## To modify the system’s behavior, adjust the system_prompt in the code. This string controls how the bot generates responses to user queries.
 
-### Find this section in the code:
-
-```
-system_prompt = (
-    "You are NuggetSupportAI, a support bot that uses a knowledge base to help users troubleshoot their problems."
-    # Modify the prompt as needed
-)
-```
-
 Change it to reflect your desired functionality.
 
 ## 6. Running the Bot
